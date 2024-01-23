@@ -26,18 +26,18 @@ struct AllRestaurantsView: View {
                         dc.delete(indexSet, restaurants: restaurants, context: context)
                     }
                 }
-           }
-            .toolbar {
-                Button {
-                    dc.addRestaurantIsPresented = true
-                } label: {
-                    Image(systemName: "plus")
+                .toolbar {
+                    Button {
+                        dc.addRestaurantIsPresented = true
+                    } label: {
+                        Image(systemName: "plus")
+                    }
                 }
-            }
-        
-            .navigationDestination(for: Restaurant.self) { rest in
-                RestaurantView(rest: rest)
-            }
+                
+                .navigationDestination(for: Restaurant.self) { rest in
+                    RestaurantView(rest: rest)
+                }
+           }
             
             .sheet(isPresented: $dc.addRestaurantIsPresented) {
                 AddRestaurantView(viewIsPresented: $dc.addRestaurantIsPresented)

@@ -48,8 +48,25 @@
 			isa = PBXGroup;
 			children = (
 				9F22F5C12B58E62000D97C58 /* DataController.swift */,
+				9F7EFE792B55C5E000372EEC /* Objects */,
 			);
 			path = DataController;
+			sourceTree = "<group>";
+		};
+		9F7E39122B601BC2008B421A /* MealView */ = {
+			isa = PBXGroup;
+			children = (
+				9F22F5C82B5F74FD00D97C58 /* MealView.swift */,
+			);
+			path = MealView;
+			sourceTree = "<group>";
+		};
+		9F7E39132B601BD8008B421A /* RestaurantView */ = {
+			isa = PBXGroup;
+			children = (
+				9F7EFE7A2B5789D800372EEC /* RestaurantView.swift */,
+			);
+			path = RestaurantView;
 			sourceTree = "<group>";
 		};
 		9F7EFE562B54B38700372EEC = {
@@ -74,10 +91,9 @@
 				9F7EFE662B54B38800372EEC /* Assets.xcassets */,
 				9F7EFE622B54B38700372EEC /* restaurant_tracker_v2App.swift */,
 				9F22F5C52B5F747200D97C58 /* DataController */,
-				9F22F5C82B5F74FD00D97C58 /* MealView.swift */,
-				9F7EFE7A2B5789D800372EEC /* RestaurantView.swift */,
+				9F7E39122B601BC2008B421A /* MealView */,
+				9F7E39132B601BD8008B421A /* RestaurantView */,
 				9F7EFE802B57930600372EEC /* AddRestaurant */,
-				9F7EFE792B55C5E000372EEC /* Objects */,
 				9F7EFE782B55C5D200372EEC /* AllRestaurantsView */,
 				9F7EFE682B54B38800372EEC /* Preview Content */,
 			);
