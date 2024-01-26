@@ -20,7 +20,10 @@ class Restaurant: Item {
         self.meals = meals
     }
     
-    static var testaurant = Restaurant(name: "McDonald's", meals: [])
+    static var testaurant = Restaurant(name: "McDonald's", meals: [
+    Meal(name: "test meal 1"),
+    Meal(name: "test meal 2")
+    ])
 }
 
 @Model
